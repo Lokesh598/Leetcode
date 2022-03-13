@@ -1,2 +1,2 @@
 # Leetcode
-Leetcode daily problem solutions.
+This Repository Contains All My Solved Leetcode Problems..
