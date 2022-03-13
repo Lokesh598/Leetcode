@@ -3,7 +3,7 @@
 // Push an opening parenthesis on top of the stack.
 // In case of a closing bracket, check if the stack is empty.
 // If not, pop in a closing parenthesis if the top of the stack contains the corresponding opening parenthesis.
-// If the parentheses are valid,​ then the stack will be empty once the input string finishes.
+// If the parentheses are valid, then the stack will be empty once the input string finishes.
 
 class Solution {
 public:
