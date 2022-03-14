@@ -29,7 +29,7 @@ public:
                     return false;
                 //if control reaches to that line,
                 //it means we have got the right pair of brackets,
-                //so just pop it.
+                //so just pop it
                 else 
                     st.pop();
             }
