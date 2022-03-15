@@ -14,9 +14,7 @@ public:
                     st.pop();
             }
         }
-        // )) == ##
-        //if top == # 
-        //pop()
+        
         while(!st.empty()) {
             s[st.top()] = '#';
             st.pop();
