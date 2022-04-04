@@ -62,5 +62,21 @@ public:
         }
         swap(ptr2->val, kth->val);
         return head;
+        /*
+        best soltuion
+         ListNode *left = head, *right = head, *curr = head;
+        int count = 1;
+        
+        while(curr != NULL) {
+            if(count<k) 
+                left = left->next;
+            if(count>k)
+                right= right->next;
+            curr = curr->next;
+            count++;
+        }
+        swap(left->val, right->val);
+        return head;
+        */
     }
 };
