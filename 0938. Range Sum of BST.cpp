@@ -31,6 +31,7 @@ public:
 };
 
 but we can improve this solution further without using loop the efficent solution can be like give below
+this solution is used constant space
 
 class Solution {
 
