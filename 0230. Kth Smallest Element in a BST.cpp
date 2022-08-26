@@ -1,3 +1,7 @@
+//recursive inorder traversal 
+//time complexity : O(N)
+//space complexity : O(N)
+
 class Solution {
     vector<int> inorder(TreeNode* root, vector<int> &arr) {
         
@@ -19,3 +23,4 @@ public:
     }
 }; 
 
+//optimization 
